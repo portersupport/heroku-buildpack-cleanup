@@ -1,0 +1,11 @@
+api = "0.7"
+
+[buildpack]
+id = "ballertv/heroku-buildpack-cleanup"
+version = "1.0"
+
+[[stacks]]
+id = "heroku-18"
+
+[[stacks]]
+id = "heroku-20"
